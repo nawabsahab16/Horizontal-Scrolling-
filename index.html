@@ -27,7 +27,29 @@
 
     </div>
     
-    
+    <script>
+
+
+        let scrollContainer = document.querySelector(".gallery");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+  
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault()
+        });
+
+        nextBtn.addEventListener("click", ()=>{
+            scrollContainer.scrollLeft +=1200
+        });
+
+        backBtn.addEventListener("click", ()=> {
+            scrollContainer.scrollLeft -=1200
+        });
+
+
+
+
+    </script>
  
 
 </body>
