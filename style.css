@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #191919;
+}
+
+.gallery  {
+    width: 1200px;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
