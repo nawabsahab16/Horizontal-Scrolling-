@@ -16,7 +16,7 @@ body{
     overflow-x: scroll;
 
 
-    
+
 }
 
 .gallery div{
@@ -34,4 +34,12 @@ body{
 
 .gallery::-webkit-scrollbar{
     display: none;
+}
+
+
+.gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
 }
